@@ -9,7 +9,7 @@ import { JscriptService } from './_services/jscript.service';
 export class AppComponent {
   title = 'six-ladders-university';
   constructor(private script: JscriptService) {
-    this.script.load('JQuery','circle','main',).then(data => {
+    this.script.load('main',).then(data => {
       console.log('script loaded ', data);
   }).catch(error => console.log(error));
   }

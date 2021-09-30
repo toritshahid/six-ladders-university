@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ApplicationsRoutingModule } from './applications-routing.module';
 import { ApplicationsComponent } from './applications.component';
+import { SidenavbarModule } from '../sidenavbar/sidenavbar.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ApplicationsComponent } from './applications.component';
   ],
   imports: [
     CommonModule,
-    ApplicationsRoutingModule
+    ApplicationsRoutingModule,
+    SidenavbarModule
   ]
 })
 export class ApplicationsModule { }

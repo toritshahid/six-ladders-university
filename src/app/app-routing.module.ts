@@ -15,7 +15,8 @@ const routes: Routes = [
 { path: 'myCompanies', loadChildren: () => import('./_modules/my-companies/my-companies.module').then(m => m.MyCompaniesModule) },
 { path: 'newJobs', loadChildren: () => import('./_modules/new-jobs/new-jobs.module').then(m => m.NewJobsModule) },
 { path: 'newJobsFullProfile', loadChildren: () => import('./_modules/new-jobs-full-profile/new-jobs-full-profile.module').then(m => m.NewJobsFullProfileModule) },
-{ path: 'offeredMonthly', loadChildren: () => import('./_modules/offered-monthly/offered-monthly.module').then(m => m.OfferedMonthlyModule) }];
+{ path: 'offeredMonthly', loadChildren: () => import('./_modules/offered-monthly/offered-monthly.module').then(m => m.OfferedMonthlyModule) },
+{ path: 'sidenavbar', loadChildren: () => import('./_modules/sidenavbar/sidenavbar.module').then(m => m.SidenavbarModule) }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

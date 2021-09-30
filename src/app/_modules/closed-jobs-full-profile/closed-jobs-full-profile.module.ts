@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ClosedJobsFullProfileRoutingModule } from './closed-jobs-full-profile-routing.module';
 import { ClosedJobsFullProfileComponent } from './closed-jobs-full-profile.component';
+import { SidenavbarModule } from '../sidenavbar/sidenavbar.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ClosedJobsFullProfileComponent } from './closed-jobs-full-profile.compo
   ],
   imports: [
     CommonModule,
-    ClosedJobsFullProfileRoutingModule
+    ClosedJobsFullProfileRoutingModule,
+    SidenavbarModule
   ]
 })
 export class ClosedJobsFullProfileModule { }

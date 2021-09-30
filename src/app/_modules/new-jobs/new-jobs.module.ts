@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { NewJobsRoutingModule } from './new-jobs-routing.module';
 import { NewJobsComponent } from './new-jobs.component';
+import { SidenavbarModule } from '../sidenavbar/sidenavbar.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { NewJobsComponent } from './new-jobs.component';
   ],
   imports: [
     CommonModule,
-    NewJobsRoutingModule
+    NewJobsRoutingModule,
+    SidenavbarModule
   ]
 })
 export class NewJobsModule { }

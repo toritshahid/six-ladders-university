@@ -14,11 +14,11 @@ import { FooterComponent } from './_modules/footer/footer.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
     CollegeDashboardModule,
 
   ],

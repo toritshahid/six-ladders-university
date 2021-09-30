@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { NewJobsFullProfileRoutingModule } from './new-jobs-full-profile-routing.module';
 import { NewJobsFullProfileComponent } from './new-jobs-full-profile.component';
+import { SidenavbarModule } from '../sidenavbar/sidenavbar.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { NewJobsFullProfileComponent } from './new-jobs-full-profile.component';
   ],
   imports: [
     CommonModule,
-    NewJobsFullProfileRoutingModule
+    NewJobsFullProfileRoutingModule,
+    SidenavbarModule
   ]
 })
 export class NewJobsFullProfileModule { }

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { MessageReplyRoutingModule } from './message-reply-routing.module';
 import { MessageReplyComponent } from './message-reply.component';
+import { SidenavbarModule } from '../sidenavbar/sidenavbar.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { MessageReplyComponent } from './message-reply.component';
   ],
   imports: [
     CommonModule,
-    MessageReplyRoutingModule
+    MessageReplyRoutingModule,
+    SidenavbarModule
   ]
 })
 export class MessageReplyModule { }

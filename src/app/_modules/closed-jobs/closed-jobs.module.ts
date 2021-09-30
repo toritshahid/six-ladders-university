@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ClosedJobsRoutingModule } from './closed-jobs-routing.module';
 import { ClosedJobsComponent } from './closed-jobs.component';
+import { SidenavbarModule } from '../sidenavbar/sidenavbar.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ClosedJobsComponent } from './closed-jobs.component';
   ],
   imports: [
     CommonModule,
-    ClosedJobsRoutingModule
+    ClosedJobsRoutingModule,
+    SidenavbarModule
   ]
 })
 export class ClosedJobsModule { }
