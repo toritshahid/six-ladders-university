@@ -16,7 +16,10 @@ const routes: Routes = [
 { path: 'newJobs', loadChildren: () => import('./_modules/new-jobs/new-jobs.module').then(m => m.NewJobsModule) },
 { path: 'newJobsFullProfile', loadChildren: () => import('./_modules/new-jobs-full-profile/new-jobs-full-profile.module').then(m => m.NewJobsFullProfileModule) },
 { path: 'offeredMonthly', loadChildren: () => import('./_modules/offered-monthly/offered-monthly.module').then(m => m.OfferedMonthlyModule) },
-{ path: 'sidenavbar', loadChildren: () => import('./_modules/sidenavbar/sidenavbar.module').then(m => m.SidenavbarModule) }];
+// { path: 'sidenavbar', loadChildren: () => import('./_modules/sidenavbar/sidenavbar.module').then(m => m.SidenavbarModule) },
+{ path: 'openjobs', loadChildren: () => import('./_modules/openjobs/openjobs.module').then(m => m.OpenjobsModule) },
+{ path: 'placementbymajor', loadChildren: () => import('./_modules/placementbymajor/placementbymajor.module').then(m => m.PlacementbymajorModule) },
+{ path: 'reports', loadChildren: () => import('./_modules/reports/reports.module').then(m => m.ReportsModule) }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
