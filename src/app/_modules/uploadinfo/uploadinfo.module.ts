@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ReportsRoutingModule } from './reports-routing.module';
-import { ReportsComponent } from './reports.component';
+import { UploadinfoRoutingModule } from './uploadinfo-routing.module';
+import { UploadinfoComponent } from './uploadinfo.component';
 import { SidenavbarModule } from '../sidenavbar/sidenavbar.module';
 
 
 @NgModule({
   declarations: [
-    ReportsComponent
+    UploadinfoComponent
   ],
   imports: [
     CommonModule,
-    ReportsRoutingModule,
+    UploadinfoRoutingModule,
     SidenavbarModule
   ]
 })
-export class ReportsModule { }
+export class UploadinfoModule { }

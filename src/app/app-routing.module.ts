@@ -19,7 +19,8 @@ const routes: Routes = [
 // { path: 'sidenavbar', loadChildren: () => import('./_modules/sidenavbar/sidenavbar.module').then(m => m.SidenavbarModule) },
 { path: 'openjobs', loadChildren: () => import('./_modules/openjobs/openjobs.module').then(m => m.OpenjobsModule) },
 { path: 'placementbymajor', loadChildren: () => import('./_modules/placementbymajor/placementbymajor.module').then(m => m.PlacementbymajorModule) },
-{ path: 'reports', loadChildren: () => import('./_modules/reports/reports.module').then(m => m.ReportsModule) }];
+{ path: 'reports', loadChildren: () => import('./_modules/reports/reports.module').then(m => m.ReportsModule) },
+{ path: 'UploadInfo', loadChildren: () => import('./_modules/uploadinfo/uploadinfo.module').then(m => m.UploadinfoModule) }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
